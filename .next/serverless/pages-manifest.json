@@ -1,8 +1,0 @@
-{
-  "/about": "pages/about.html",
-  "/contact": "pages/contact.html",
-  "/": "pages/index.html",
-  "/projects": "pages/projects.html",
-  "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
-}

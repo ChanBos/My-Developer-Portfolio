@@ -1,5 +1,5 @@
 // Imported the Link API to support client-side navigation.
-import Link from "next/Link";
+import Link from "next/link";
 // Imported AppDisplay to set the holistic style of this page.
 import AppDisplay from "../components/AppDisplay";
 

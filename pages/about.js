@@ -1,5 +1,5 @@
 // Imported the Link API to support client-side navigation.
-import Link from "next/Link";
+import Link from "next/link";
 // Imported components from React Bootstrap.
 import { Container, Col } from "react-bootstrap";
 // Imported AppDisplay to set the holistic style of this page.

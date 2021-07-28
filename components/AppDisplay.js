@@ -1,5 +1,5 @@
 // Imported the Link API to support client-side navigation.
-import Link from "next/Link";
+import Link from "next/link";
 // Importing the Next built-in component to append elements to the head of the page.
 import Head from "next/head";
 // Importing the header component.
