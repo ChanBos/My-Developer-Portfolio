@@ -1,0 +1,25 @@
+{
+  "name": "my-developer-portfolio",
+  "version": "1.0.0",
+  "description": "Developer Portfolio Created with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "now-build" : "next build",
+    "start": "next start"
+  },
+  "author": "Chanelle Bösiger",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2"
+  }
+}
