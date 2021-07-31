@@ -36,6 +36,20 @@ const AppDisplay = (props) => (
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Staatliches"
       />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-LP6YNW1726"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date()); 
+        gtag('config', 'G-LP6YNW1726');
+        `,
+        }}
+      ></script>
     </Head>
     <div style={appDisplayStyle}>
       <Header />
