@@ -38,7 +38,7 @@ const AppDisplay = (props) => (
       />
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-LP6YNW1726"
+        src="https://www.googletagmanager.com/gtag/js?id=UA-203705051-1"
       ></script>
       <script
         dangerouslySetInnerHTML={{
@@ -46,7 +46,7 @@ const AppDisplay = (props) => (
         window.dataLayer = window.dataLayer || []; 
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date()); 
-        gtag('config', 'G-LP6YNW1726');
+        gtag('config', 'UA-203705051-1');
         `,
         }}
       ></script>

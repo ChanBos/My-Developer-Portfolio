@@ -248,6 +248,29 @@ const Projects = () => {
                 &#8226; GITHUB REPOSITORY
               </a>
             </div>
+            <div style={colStyle}>
+              <h5 style={h5Style}>BLOGGER.COM BLOG:</h5>
+              <img
+                src="/static/images/Blogger.png"
+                alt="Car Database"
+                style={imageStyle}
+              />
+              <br />
+              <h6>
+                <FontAwesomeIcon icon={faLink} style={iconStyle} />
+                Link:
+              </h6>
+              <a
+                href="https://chanellebosigerdev.blogspot.com/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; BLOGGER.COM
+              </a>
+            </div>
           </div>
         </div>
       </AppDisplay>
