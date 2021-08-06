@@ -42,6 +42,11 @@ const section3Style = {
   left: 0,
 };
 
+const section4Style = {
+  top: 680,
+  left: 0,
+};
+
 // Set the width and the margins of the columns.
 const colStyle = {
   width: 480,
@@ -248,6 +253,42 @@ const Projects = () => {
                 &#8226; GITHUB REPOSITORY
               </a>
             </div>
+            <div style={colStyle}>
+              <h5 style={h5Style}>NEXT.JS RECIPE SEARCH APP:</h5>
+              <img
+                src="/static/images/RecipeApp.png"
+                alt="Recipe App"
+                style={imageStyle}
+              />
+              <br />
+              <h6>
+                <FontAwesomeIcon icon={faLink} style={iconStyle} />
+                Link:
+              </h6>
+              <a
+                href="https://github.com/ChanBos/Next-Recipe-Search-App"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; GITHUB REPOSITORY
+              </a>
+              <br />
+              <a
+                href="https://next-recipe-search-app.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; DEPLOYED APPLICATION
+              </a>
+            </div>
+          </div>
+          <div style={Object.assign({}, containerStyle, section4Style)}>
             <div style={colStyle}>
               <h5 style={h5Style}>BLOGGER.COM BLOG:</h5>
               <img
