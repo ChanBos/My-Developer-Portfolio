@@ -13,8 +13,9 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 // Set the height and width of the background image.
 const backgroundStyle = {
-  height: "auto",
+  height: "1500px",
   width: 1349,
+  backgroundRepeat: "repeat-y",
 };
 
 // Set the position of the containers to absolute. Also set the text alignment to center, for the container to display as flex and the
