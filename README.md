@@ -8,7 +8,7 @@
 
 > Developer Portfolio Created with Next.js
 
-### ✨ [URL](my-developer-portfolio-sand.vercel.app)
+### ✨ [Link to the application](my-developer-portfolio-sand.vercel.app)
 
 ## Table of Contents:
 
