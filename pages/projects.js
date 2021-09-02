@@ -13,7 +13,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 
 // Set the height and width of the background image.
 const backgroundStyle = {
-  height: "1500px",
+  height: "2365px",
   width: 1349,
   backgroundRepeat: "repeat-y",
 };
@@ -34,22 +34,34 @@ const section1Style = {
 };
 
 const section2Style = {
-  top: 500,
+  top: 525,
   left: 140,
 };
 
 const section3Style = {
-  top: 342,
+  top: 370,
   left: 0,
 };
 
 const section4Style = {
-  top: 680,
+  top: 738,
   left: 0,
+};
+
+const section5Style = {
+  top: 1105,
+  left: 0,
+};
+
+const section6Style = {
+  top: 1995,
+  left: 140,
+  paddingBottom: 20,
 };
 
 // Set the width and the margins of the columns.
 const colStyle = {
+  borderTop: "1px solid #C0C0C0",
   width: 480,
   marginLeft: 25,
   marginRight: 25,
@@ -64,6 +76,8 @@ const h1Style = {
 
 // Set the font weight and the bottom margin of the h5 headers.
 const h5Style = {
+  borderBottom: "1px solid #C0C0C0",
+  padding: 10,
   fontWeight: "bold",
   marginBottom: 10,
 };
@@ -183,8 +197,19 @@ const Projects = () => {
             <br />
             <h6>
               <FontAwesomeIcon icon={faLink} style={iconStyle} />
-              Link:
+              Links:
             </h6>
+            <a
+              href="https://github.com/ChanBos/React-Express-Web-Project-App"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+              onMouseOver={changeFontColor}
+              onMouseOut={changeBackFontColor}
+            >
+              &#8226; GITHUB REPOSITORY
+            </a>
+            <br />
             <a
               href="https://mighty-forest-67321.herokuapp.com/"
               target="_blank"
@@ -232,6 +257,76 @@ const Projects = () => {
           </div>
           <div style={Object.assign({}, containerStyle, section3Style)}>
             <div style={colStyle}>
+              <h5 style={h5Style}>REACT CASINO APPLICATION:</h5>
+              <img
+                src="/static/images/CasinoApp.png"
+                alt="Casino Application"
+                style={imageStyle}
+              />
+              <br />
+              <h6>
+                <FontAwesomeIcon icon={faLink} style={iconStyle} />
+                Links:
+              </h6>
+              <a
+                href="https://github.com/ChanBos/React-Casino-App"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; GITHUB REPOSITORY
+              </a>
+              <br />
+              <a
+                href="http://harsh-eggnog.surge.sh/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; DEPLOYED APPLICATION
+              </a>
+            </div>
+            <div style={colStyle}>
+              <h5 style={h5Style}>REACT CALCULATOR APP:</h5>
+              <img
+                src="/static/images/MyCalculator.png"
+                alt="Calculator App"
+                style={imageStyle}
+              />
+              <br />
+              <h6>
+                <FontAwesomeIcon icon={faLink} style={iconStyle} />
+                Links:
+              </h6>
+              <a
+                href="https://github.com/ChanBos/React-Calculator-App"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; GITHUB REPOSITORY
+              </a>
+              <br />
+              <a
+                href="https://feeble-bedroom.surge.sh/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; DEPLOYED APPLICATION
+              </a>
+            </div>
+          </div>
+          <div style={Object.assign({}, containerStyle, section4Style)}>
+            <div style={colStyle}>
               <h5 style={h5Style}>CAR DATABASE APPLICATION:</h5>
               <img
                 src="/static/images/CarDatabase.png"
@@ -241,7 +336,7 @@ const Projects = () => {
               <br />
               <h6>
                 <FontAwesomeIcon icon={faLink} style={iconStyle} />
-                Link:
+                Links:
               </h6>
               <a
                 href="https://github.com/ChanBos/Car-Database-App"
@@ -252,6 +347,17 @@ const Projects = () => {
                 onMouseOut={changeBackFontColor}
               >
                 &#8226; GITHUB REPOSITORY
+              </a>
+              <br />
+              <a
+                href="https://mern-car-database-app.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; DEPLOYED APPLICATION
               </a>
             </div>
             <div style={colStyle}>
@@ -264,7 +370,7 @@ const Projects = () => {
               <br />
               <h6>
                 <FontAwesomeIcon icon={faLink} style={iconStyle} />
-                Link:
+                Links:
               </h6>
               <a
                 href="https://github.com/ChanBos/Next-Recipe-Search-App"
@@ -289,12 +395,46 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div style={Object.assign({}, containerStyle, section4Style)}>
+          <div style={Object.assign({}, containerStyle, section5Style)}>
             <div style={colStyle}>
-              <h5 style={h5Style}>BLOGGER.COM BLOG:</h5>
+              <h5 style={h5Style}>REACT WEATHER APP:</h5>
               <img
-                src="/static/images/Blogger.png"
-                alt="Car Database"
+                src="/static/images/WeatherBot.png"
+                alt="Weather App"
+                style={imageStyle}
+              />
+              <br />
+              <h6>
+                <FontAwesomeIcon icon={faLink} style={iconStyle} />
+                Links:
+              </h6>
+              <a
+                href="https://github.com/ChanBos/React-Weather-App"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; GITHUB REPOSITORY
+              </a>
+              <br />
+              <a
+                href="http://mean-fly.surge.sh/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; DEPLOYED APPLICATION
+              </a>
+            </div>
+            <div style={colStyle}>
+              <h5 style={h5Style}>MERN TO-DO APP:</h5>
+              <img
+                src="/static/images/ToDoApp.png"
+                alt="To-Do App"
                 style={imageStyle}
               />
               <br />
@@ -303,16 +443,86 @@ const Projects = () => {
                 Link:
               </h6>
               <a
-                href="https://chanellebosigerdev.blogspot.com/"
+                href="https://github.com/ChanBos/MERN-Todo-With-Auth"
                 target="_blank"
                 rel="noreferrer"
                 style={linkStyle}
                 onMouseOver={changeFontColor}
                 onMouseOut={changeBackFontColor}
               >
-                &#8226; BLOGGER.COM
+                &#8226; GITHUB REPOSITORY
+              </a>
+              <br />
+              <a
+                href="https://mern-todo-with-auth.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                style={linkStyle}
+                onMouseOver={changeFontColor}
+                onMouseOut={changeBackFontColor}
+              >
+                &#8226; DEPLOYED APPLICATION
               </a>
             </div>
+          </div>
+        </div>
+        <div style={Object.assign({}, containerStyle, section6Style)}>
+          <div style={colStyle}>
+            <h5 style={h5Style}>MERN RESORT BOOKING APP:</h5>
+            <img
+              src="/static/images/CasaDeBoho.png"
+              alt="Weather App"
+              style={imageStyle}
+            />
+            <br />
+            <h6>
+              <FontAwesomeIcon icon={faLink} style={iconStyle} />
+              Links:
+            </h6>
+            <a
+              href="https://github.com/ChanBos/MERN-Resort-Booking-App"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+              onMouseOver={changeFontColor}
+              onMouseOut={changeBackFontColor}
+            >
+              &#8226; GITHUB REPOSITORY
+            </a>
+            <br />
+            <a
+              href="https://mern-resort-booking-app.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+              onMouseOver={changeFontColor}
+              onMouseOut={changeBackFontColor}
+            >
+              &#8226; DEPLOYED APPLICATION
+            </a>
+          </div>
+          <div style={colStyle}>
+            <h5 style={h5Style}>BLOGGER.COM BLOG:</h5>
+            <img
+              src="/static/images/Blogger.png"
+              alt="Car Database"
+              style={imageStyle}
+            />
+            <br />
+            <h6>
+              <FontAwesomeIcon icon={faLink} style={iconStyle} />
+              Link:
+            </h6>
+            <a
+              href="https://chanellebosigerdev.blogspot.com/"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+              onMouseOver={changeFontColor}
+              onMouseOut={changeBackFontColor}
+            >
+              &#8226; BLOGGER.COM
+            </a>
           </div>
         </div>
       </AppDisplay>

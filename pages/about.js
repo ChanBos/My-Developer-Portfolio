@@ -172,7 +172,7 @@ const education = [
   {
     id: "3",
     education_degree: "Full Stack Web Developer Bootcamp",
-    education_year: "01/2021 - Current",
+    education_year: "01/2021 - 09/2021",
     education_school: "HyperionDev",
   },
   {
